@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=root
+comment0.target=void\ preorder(node)
+comment1.params=root
+comment1.target=void\ postorder(node)
+comment2.params=root
+comment2.target=void\ inorder(node)
+comment3.params=val
+comment3.target=void\ insert(int)
+comment4.params=root\ val
+comment4.target=void\ insert(node,\ int)
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6

@@ -1,0 +1,49 @@
+Mr. Agarwal is fond of girls! :D . In order to check his compatibility with the girls , he often calculates "FLAMES". It is a child game , which predicts the relation of the boy ,with the girl.
+F- FRIENDSHIP
+L- LOVE
+A- AFFECTION
+M- MARRIAGE
+E- ENDEARMENT
+S- SISTERHOOD
+He has to simulate this game through a computer program.
+Help him , by writing code for Agrawal.
+Rules- 
+1: Calculate the total number of unique characters in the names of the boy and the girl.
+For eg. Total number of unique characters in names - Jack and Maria are 7, namely, J, A, C , K, M, R, I.
+2: Go on spiral eliminating the characters from 'FLAMES' , according to the unique-character-count(UCC)(7 in the above example).
+Eg. for 7 UCC , elimination follows like this:
+Start counting from F, and eliminate 7th character, i.e., F , because starting the count from F, we reach S as 6th character, and then back to F, as the 7th character.
+therefore , the resulting string after first elimination is 'LAMES'.
+3: The second elimination would start from L., and so on.....
+4: Keep doing the elimination untill you are left with the single character.
+
+
+NOTE- Every counting after the first one, begins from the character ,adjacent of the eliminated character, therefore if in some case if the current string is LMS ,and the previosly deleted character was A, then the counting begins from M.
+
+
+Limits:
+T<=10 (no. of test cases)
+Each character of the string is small character . 'a' <= character <= 'z' .
+UCC > 1 for each test case.
+Length of Each Name <= 1000.
+Time Limit - 5 sec.
+
+Input:
+first line - T.
+2T lines follow , each line having name of the boy, followed by name of the girl in second line.
+each test case has two lines:
+First Line has name of the boy.
+Second Line has name of the girl.
+
+Output:
+Single word predicting the future of the boy and the girl.
+
+Example:
+
+Input:
+1
+jack
+maria
+
+Output:
+ENDEARMENT 

@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1404573004 source:/home/priyanshu/Dropbox/Public/coding/JULY14/JULY14/main.cpp
+	<iostream>
+	<stdio.h>
+	<math.h>
+
+1404578254 source:/home/priyanshu/Dropbox/Public/coding/JULY14/JULY14/RETPO.cpp
+	<iostream>
+	<stdio.h>
+	<math.h>
+
+1404664261 source:/home/priyanshu/Dropbox/Public/coding/JULY14/JULY14/DISHOWN.cpp
+	<iostream>
+	<stdio.h>
+	<math.h>
+
+1404642122 source:/home/priyanshu/Dropbox/Public/coding/JULY14/JULY14/FROGV.cpp
+	<iostream>
+	<stdio.h>
+	<math.h>
+	<algorithm>
+
+1404666709 source:/home/priyanshu/Dropbox/Public/coding/JULY14/JULY14/SGARDEN.cpp
+	<iostream>
+	<stdio.h>
+	<memory.h>
+	<vector>
+

@@ -1,0 +1,42 @@
+We have N airports. If there is a flight from airport A to the other B, then B is said to be accessible from A.
+
+A ‘Yoda’ group is a group of airports, in which, every airport is accessible from each of the other airport of that Yoda group, via some path of airports of that group or there is a direct flight to this airport from any other airport of the group.
+
+Given the details of flights b/w the airports, find the number of ‘Yoda’ groups.
+ 
+NOTE- A single airport trivially forms a ‘Yoda’ group, i.e. , lets suppose there are two airports A and B and if A can not be accessed from B or B cannot be accessed from A, then if this is true for all the B airports for any particular A , then A forms a trivial Yoda group.
+
+Input:-
+
+First line - N M (no. of airports, no. of flights)
+
+M lines follow:
+
+Each line has two entries A B
+which shows that there is a flight from A to B
+
+Output:-
+
+Single digit, giving the no. of Yoda groups.
+
+Limits:
+T <= 2s
+N <= 10^3
+M <= 10^4 * 5
+Eg.
+
+Input:
+4 4
+1 2
+2 3
+3 1
+3 4
+
+Output:
+2
+
+Explanation:- 
+
+Airport 1, 2 and 3 form a Yoda group, because each of these airports are accessible from any other airport of the group.
+Airport 4 forms a trivial Yoda group.
+Therefore total Yoda groups is 2.

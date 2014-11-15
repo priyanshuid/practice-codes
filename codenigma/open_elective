@@ -1,0 +1,34 @@
+New semester has started at the Institute and open elective subject has to be allotted to every student.
+
+There are N students of N different departments, such that no two students are of the same department.
+
+Since the institute has this rule, that a particular student cannot take an open elective from his/her own department, he has to take an Open elective subject from (N-1) department-choices he has. And so is the case with all the students.
+
+Output the total no. of possible ways of OE allotment to all students for a given N.
+
+Each department provides only one open elective.
+Since the no. can be very large, output it modulo 1000000009.
+
+Input:-
+
+First line - T (T Test cases)
+T lines follow with a single no. ‘N’.
+
+Output:-
+For each input N, output total no. of ways of OE allotment.
+
+Limits:-
+T <= 10
+N <= 10^6
+
+Example:-
+
+Input:-
+2
+1
+3
+
+Output:-
+0
+2
+
